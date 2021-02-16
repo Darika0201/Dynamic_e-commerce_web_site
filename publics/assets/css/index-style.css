@@ -1,0 +1,139 @@
+
+.side-bar{
+    margin-left: 3%;
+    padding-top: 3%;
+}
+.side-bar a{
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+}
+.shop{
+    color: lightgreen;
+}
+a.login{
+    margin-right: 10px;
+    font-size: 18px;
+    /* background-color: white; */
+    /* outline: none;
+    box-shadow: 1px 2px; */
+}
+.right-path{
+    float: right;
+    margin-right: 10px;
+}
+.side-bar a.help{
+    text-decoration: none;
+    font-size: 16px; 
+    margin-right: 10px;
+}
+@media screen and (max-width:600px){
+    .side-bar a{
+        font-size:20px;
+    }
+}
+
+.back-ground{
+    background: url("../image/background.png") ;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* overflow: hidden;
+    background-position-y: 20%; */
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+}
+center>h1{
+    margin-top: 5%;    
+}
+.text{
+    color: gray;
+}
+.input{
+    
+    width: 50%;
+    border-radius: 20px;
+    border: 0.5 solid rgb(126, 122, 122);
+    border-top: 0;
+    border-left: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    height: 30px;
+    margin-top: 5%;
+    margin-bottom: 15%;
+    outline: none;
+    padding: 10px ;
+    font-size: 16px;
+    font-family:Arial, FontAwesome;
+}
+.first-card{
+    border: 1px solid black;
+    width: 30%;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    grid-gap: 1em;
+    margin: 30px;
+    /* padding:  0 8em; */
+}
+@media only screen and (max-width: 600px) {
+    .back-ground{
+        background: none;
+        width: 100%;
+        height: 100%;
+    }
+    center h1{
+        font-size: 20px;
+       }
+}
+@media only screen and (max-width: 600px) {
+    .grid{
+        display: grid;
+        grid-template-columns:100%;
+    }
+}
+.item1{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 20px;
+    border: 1px solid black;
+    color: white;
+    background-color: lightcoral;
+}
+.item2{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 20px;
+    border: 1px solid black;
+    color: white;
+    background-color: orange;
+}
+.item3{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 20px;
+    border: 1px solid black;
+    color: white;
+    background-color: palevioletred;
+}
+.btn{
+    background-color: white;
+    height: 25px;
+    margin-bottom: 20px;
+    border: 0.5 solid gray; 
+    box-shadow: 1px 2px ;
+    outline: none;
+}
+.image{
+    display: flex;
+    width: 60px;
+}
+.inner{
+    margin-right: auto;
+}
+
+
+
+    
